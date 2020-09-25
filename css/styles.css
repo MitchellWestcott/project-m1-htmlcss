@@ -1,3 +1,208 @@
 @import 'css-reset.css';
 
 /* CSS here :) */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    margin:0;
+}
+
+nav {
+    width: 100vw;
+    height:40px;
+    background-color:hsl(0, 0%, 35%);
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-left:20%;
+    text-align:right;
+}
+
+ul {
+    display:flex;
+}
+
+ul.navbar li a img {
+    max-width:20px;
+    padding-left:5px;
+}
+
+ul.navbar li a {
+    color:white;
+    text-decoration:none;
+    list-style-type:none;
+    padding-left:30px;
+    padding-right:50px;
+}
+
+.heading {
+    background-image: url("../imgs/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    background-position-y:2em;
+    align-items:center;
+}
+
+.container {
+    display:flex;
+    border: 8px solid white;
+    width:80vw;
+    height:20vw;
+    color:white;
+}
+
+.boxOne {
+    display:flex;
+    font-size:50px;
+    padding:20px;
+}
+
+.boxTwo {
+    display:flex;
+    flex-direction:column;
+    font-size:30px;
+    background-color: rgba(36, 34, 34, 0.418);
+    padding:20px;
+    text-align: center;
+}
+
+.containerTwo {
+    display:flex;
+    flex-direction:column;
+    padding-top:50px;
+}
+
+.boxThree {
+    display:flex;
+    font-size:18px;
+    padding:20px;
+    border-top: 2px dotted rgba(255, 255, 255, 0.404);
+
+}
+
+.featureSection{
+    display:flex;
+    justify-content:center;
+}
+
+.feature {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid white;
+    box-shadow: 0px 5px 10px grey;
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 5vw;
+    text-align:center;
+    width:20%;
+}
+
+.feature img {
+    width:20%;
+    height:auto;
+}
+
+.feature h3 {
+    color:black;
+    font-size:20px;
+    padding-bottom:3vh;
+    padding-top:2vh;
+}
+
+.feature a {
+    background-color:hsl(0, 70%, 81%);
+    margin:1vh;
+    /* padding:0vmax 8vmax; */
+    /* width:40px; */
+    padding: 10px 100px 10px 100px;
+    text-decoration:none;
+    color: white;
+    text-align:center;
+    radius:8px;
+    box-shadow: 0px 4px 8px #b38080;
+}
+
+.coolPortion h1, h3{
+    color: white;
+}
+
+.coolPortion h1 {
+    font-size:60px;
+}
+
+.coolPortion {
+    position:relative;
+    background:#b38080;
+    padding:300px;
+}
+
+.thisLooksCool {
+    opacity:0.91;
+    position:absolute;
+    display:inline-block;
+    text-align: center;
+    border: 4px solid white;
+    background: #b38080;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 3px;
+    top:620px;
+    left:60px;
+    width:180px;   
+    padding:10px;
+}
+
+.thisLooksCool h4 {
+    font-size:24px;
+}
+
+.gradientArea {
+    /* background: rgb(249,92,161); */
+    background: linear-gradient(45deg, rgba(249,92,161,0.8323704481792717) 0%, rgba(9,77,121,0.7175245098039216) 35%, rgba(255,239,0,0.3897934173669467) 100%);
+    padding:300px;
+}
+
+.theImageZone {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.rowOne {
+    display:flex;
+}
+
+.rowOne img {
+    width: 33.3%;
+    height:auto;
+}
+
+.rowTwo {
+    display:flex;
+}
+
+.rowTwo img {
+    width: 33.3%;
+    height:auto;
+}
+
+.bottomLinks {
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+}
+
+.linkContainer {
+    display:flex;
+    flex-direction: column;
+    width:30%;
+
+}
